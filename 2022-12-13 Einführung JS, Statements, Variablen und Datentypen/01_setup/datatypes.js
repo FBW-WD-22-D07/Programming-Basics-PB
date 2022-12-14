@@ -37,8 +37,45 @@ const booleanTwo = false;
 let undefinedVariable;
 
 console.log(Boolean(booleanOne)); //true
+
+
+
+
+
+
+
+
+
+
+
+
+
 console.log(Boolean(booleanTwo)); //false
+
+
+
+
+
+
+
+
+
+
+
+
 console.log(Boolean(myNum)); // true
+
+
+
+
+
+
+
+
+
+
+
+
 console.log(Boolean(1)); //true
 console.log(Boolean(0)); // false
 console.log(Boolean(" ")); //true
