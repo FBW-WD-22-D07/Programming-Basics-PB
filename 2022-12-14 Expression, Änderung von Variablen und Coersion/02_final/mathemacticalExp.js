@@ -93,15 +93,27 @@ console.log("Counter is " + counter3);
 let postfixForm = 5;
 let prefixForm = 5;
 
-console.log(postfixForm++);
+console.log(postfixForm++); // 5, weil der console.log vorher ausgeführt wird und dann erst die Rechenoperation.
 
 /**
- * console.log(postfixForm);
- * postfixForm++
- * console.log(postfixForm);
+ * CodeAblauf:
+ * ->console.log(postfixForm);
+ * ->postfixForm++
+ * ->console.log(postfixForm);
  */
 
-// 5, weil der console.log vorher ausgeführt wird und dann erst die Rechenoperation.
 console.log(postfixForm); // 6
 
 console.log(++prefixForm); // 6 weil die Rechenoperation wird zuerst ausgeführt, dann wird der console.log ausgeführt.
+
+/**Erklärung in anderen Wort von Christian:
+ *
+ * prefixform -> erst Schrank auseinander bauen
+ * und dann die Bretter in den Transporter laden
+ *
+ * postfixform -> erst Schrank in den Transporter laden
+ * und dann auseinanderbauen
+ *
+ * (console.log -> in den Transporter laden,
+ *  ++ -> Schrank auseinander bauen)
+ */
