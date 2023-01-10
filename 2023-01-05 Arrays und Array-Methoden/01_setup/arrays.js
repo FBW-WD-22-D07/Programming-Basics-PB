@@ -161,7 +161,7 @@ console.log(nubmersArr); // [ 1, 2, 3, 4, 5 ]
 // slice()
 const numbersArr2 = [0, 1, 2, 3, 4, 5, 6];
 const slicedEelements = numbersArr2.slice(0, 3); // von index 0 bis 2
-console.log("original array:", numbersArr2); // original array: [0, 1, 2, 3,4, 5, 6]
+console.log("original array:", numbersArr2); // original array: [0, 1, 2, 3, 4, 5, 6]
 console.log("sliced elements:", slicedEelements); // sliced elements: [ 0, 1, 2 ]
 
 // ------------##----------------

@@ -57,7 +57,7 @@ console.log(++number);
 // BEST PRACTICES
 // Don't repeat yourself => DRY Principle
 
-// Input  => Algorithm => Output
+// Input  => Algorithmus => Output
 // 2, 5	  => Blackbox  =>  5
 // 0, 100 => Blackbox  => 100
 // 52, 35 => Blackbox  => 52

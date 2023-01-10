@@ -204,14 +204,14 @@ let agE = 25;
 // Input: firstName und agE
 
 // Wenn agE weniger als 13 Jahre beträgt, gebe aus ${firstName} ist ein Kind.
-// Wenn agE größer/gleich 13 UND kleiner als 20 ist, gebe aus ${firstName} ist ein Kind.
+// Wenn agE größer/gleich 13 UND kleiner als 20 ist, gebe aus ${firstName} ist ein Teenager.
 // Wenn agE größer/gleich 20 UND kleiner als 30 ist, drucke ${firstname} ist ein junger Erwachsener.
 // Sonst gebe aus ${firstname} ist ein Erwachsener.
 
 if (ageE < 13) {
   console.log(`${firstName} ist ein Kind.`);
 } else if (agE >= 13 && agE < 20) {
-  console.log(`${firstName} ist ein Kind.`);
+  console.log(`${firstName} ist ein Teenager.`);
 } else if (agE >= 20 && agE < 30) {
   console.log(`${firstname} ist ein junger Erwachsener.`);
 } else {
