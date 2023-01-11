@@ -66,16 +66,19 @@ console.log(GLOBALLY);
 // Wann sollte ich den if-Operator und wann den ternären Operator verwenden?
 const date = "Wednesday";
 if (date === "Wednesday") {
-    console.log("its the mid week");
+    console.log("it's midweek");
 } else {
-    console.log("it's not the mid week");
+    console.log("it's not midweek");
 }
 console.log(
     date === "Wednesday" || date === "Sunday"
-        ? "its the mid week"
-        : "its not the midweek"
+        ? "it's midweek"
+        : "it's not midweek"
 );
-// nur einer ...
+// Bei nur einem Statment, ergibt es Sinn, den ternären Operator zu benutzen. Bei allen anderen Fällen muss man dann wieder den if-Operator benutzen.
+// date === "Wednesday"
+//     ? console.log("it's the mid week")
+//     : console.log("it's not the mid week");
 
 // Math problems
 const number = 42;

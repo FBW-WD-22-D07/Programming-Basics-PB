@@ -39,9 +39,9 @@
 // wenn 21 nicht durch 3 teilbar ist, dann drucke- Nein, 21 ist kein Vielfaches von 3
 
 if (21 % 3 === 0) {
-  console.log("Ja, 21 ist ein Vielfaches von 3!");
+    console.log("Ja, 21 ist ein Vielfaches von 3!");
 } else {
-  console.log("Nein, 21 ist kein Vielfaches von 3");
+    console.log("Nein, 21 ist kein Vielfaches von 3");
 } // Ja, 21 ist ein Vielfaches von 3
 
 // ---------###--------
@@ -56,9 +56,9 @@ let varB = "false";
 
 // Die if (...)-Anweisung wertet den Ausdruck in den Klammern aus und wandelt das Ergebnis in einen booleschen Wert um.
 if (varA != varB) {
-  console.log("Boolesche Werte sind nicht gleich Zeichenketten!");
+    console.log("Boolesche Werte sind nicht gleich Zeichenketten!");
 } else {
-  console.log("Boolesche Werte sind gleich Zeichenketten!");
+    console.log("Boolesche Werte sind gleich Zeichenketten!");
 }
 // Boolesche Werte sind nicht gleich Zeichenketten!
 
@@ -73,9 +73,9 @@ let year = 2020;
 let cond = year == 2015; // equality evaluates to true or false
 
 if (cond) {
-  console.log(`Ja, es ist ${year}`);
+    console.log(`Ja, es ist ${year}`);
 } else {
-  console.log("Du bist nicht auf dem neuesten Stand.");
+    console.log("Du bist nicht auf dem neuesten Stand.");
 }
 // Du bist nicht auf dem neuesten Stand.
 
@@ -92,9 +92,9 @@ let age = 25;
 
 // Die if (...)-Anweisung wertet den Ausdruck in den Klammern aus und wandelt das Ergebnis in einen booleschen Wert um.
 if (age > 18) {
-  accessAllowed = true;
+    accessAllowed = true;
 } else {
-  accessAllowed = false;
+    accessAllowed = false;
 }
 
 console.log(accessAllowed); // true
@@ -106,9 +106,9 @@ let time = 21;
 let greeting;
 
 if (time < 10) {
-  greeting = "Good morning!";
+    greeting = "Good morning!";
 } else {
-  greeting = "Good evening!";
+    greeting = "Good evening!";
 }
 console.log(greeting); // Good evening!
 
@@ -125,9 +125,9 @@ let statementTrue = `${company} entwickelte ${language}.`;
 let statementFalse = `${company} entwickelte nicht ${language}.`;
 
 if (company == "Netscape") {
-  console.log(`${statementTrue}`);
+    console.log(`${statementTrue}`);
 } else {
-  console.log(`${statementFalse}`);
+    console.log(`${statementFalse}`);
 } // Netscape entwickelte JavaScript.
 
 // ---------###--------
@@ -149,22 +149,22 @@ if (company == "Netscape") {
 
 let weather = "sunny";
 if (weather === "sunny") {
-  // einen Blockbereich starten
-  // true case
-  console.log("Vergiss deine Sonnenbrille nicht!"); // Vergiss deine Sonnenbrille nicht!
-  // Unerfüllte Fälle überspringen => weglassen, wenn nicht der Fall!
-  let nichtBraunWerden = true;
-  if (nichtBraunWerden === true) {
-    console.log("Sonnenschutzmittel nicht vergessen!"); // Sonnenschutzmittel nicht vergessen!
-  } else {
-    console.log("Viel Spaß!");
-  }
-  // SyntaxError: Unexpected token '}' => }
-  // Syntax debugging have a look at the curlies again! {}
+    // einen Blockbereich starten
+    // true case
+    console.log("Vergiss deine Sonnenbrille nicht!"); // Vergiss deine Sonnenbrille nicht!
+    // Unerfüllte Fälle überspringen => weglassen, wenn nicht der Fall!
+    let nichtBraunWerden = true;
+    if (nichtBraunWerden === true) {
+        console.log("Sonnenschutzmittel nicht vergessen!"); // Sonnenschutzmittel nicht vergessen!
+    } else {
+        console.log("Viel Spaß!");
+    }
+    // SyntaxError: Unexpected token '}' => }
+    // Syntax debugging have a look at the curlies again! {}
 } else {
-  // der default case (Standardfall) => Fallback
-  // false case
-  console.log("Vergiss deinen Regenschirm nicht!");
+    // der default case (Standardfall) => Fallback
+    // false case
+    console.log("Vergiss deinen Regenschirm nicht!");
 }
 
 // ---------###-----------------###--------
@@ -187,11 +187,11 @@ const time2 = 21;
 let greeting2;
 
 if (time2 < 10) {
-  greeting2 = "Good morning!";
+    greeting2 = "Good morning!";
 } else if (time2 >= 10 && time2 < 20) {
-  greeting2 = "Good day!";
+    greeting2 = "Good day!";
 } else {
-  greeting2 = "Good evening!";
+    greeting2 = "Good evening!";
 }
 
 console.log(greeting2); // Good evening!
@@ -209,11 +209,11 @@ let agE = 25;
 // Sonst gebe aus ${firstname} ist ein Erwachsener.
 
 if (ageE < 13) {
-  console.log(`${firstName} ist ein Kind.`);
+    console.log(`${firstName} ist ein Kind.`);
 } else if (agE >= 13 && agE < 20) {
-  console.log(`${firstName} ist ein Teenager.`);
+    console.log(`${firstName} ist ein Teenager.`);
 } else if (agE >= 20 && agE < 30) {
-  console.log(`${firstname} ist ein junger Erwachsener.`);
+    console.log(`${firstname} ist ein junger Erwachsener.`);
 } else {
-  console.log(`${firstname} ist ein Erwachsener.`);
+    console.log(`${firstname} ist ein Erwachsener.`);
 } // John ist ein Erwachsener.

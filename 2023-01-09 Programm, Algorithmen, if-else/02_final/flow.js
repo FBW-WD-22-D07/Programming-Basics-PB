@@ -72,7 +72,14 @@ console.log(++number);
 // Wie können wir die größte Zahl herausfinden?
 
 // Lösungspseudocode für Blackbox Number 1:
+
 // Wenn die erste Zahl größer ist als die zweite Zahl,
-//      gib mir die erste Zahl.
+if (a > b) {
+    // gib mir die erste Zahl.
+    console.log(a);
+}
 // Andernfalls
-//      gib mir die zweite Zahl.
+else {
+    // gib mir die zweite Zahl.
+    console.log(b);
+}
