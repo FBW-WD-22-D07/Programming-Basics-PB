@@ -48,7 +48,7 @@ if (month === 1) {
 switch (month) {
     case 1:
         console.log("Its January!");
-        break; // EIN MUSS FÜR ALLE FÄLLE IN DER REGEL
+        break; // MUSS DABEI STEHEN, SONST WERDEN ALLE ANDEREN FÄLLE MITGEPRÜFT UND DAS KOSTET ZEIT
     case 2:
         console.log("Its February");
         break;
